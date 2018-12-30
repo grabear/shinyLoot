@@ -7,11 +7,13 @@ Authors@R:
            role = c("aut", "cre"),
            email = "robgilmore127@gmail.com")
 Description: This package supplies the user with tools for managing loot for
-popular tabletop RPG games.  While the package only currently supports Pathfinder
-specifically, the first major release will be generalistic.  The primary tool
-will be a group of functions for deploying a shiny app to use during game sessions
-to keep up with loot.
+    popular tabletop RPG games.  While the package only currently supports Pathfinder
+    specifically, the first major release will be generalistic.  The primary tool
+    will be a group of functions for deploying a shiny app to use during game sessions
+    to keep up with loot.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
+Imports: 
+    shiny
