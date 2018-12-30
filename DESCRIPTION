@@ -1,12 +1,16 @@
 Package: shinyLoot
-Title: What the Package Does (One Line, Title Case)
+Title: An R Shiny Package for Managing Loot in Popular Tabletop RPG Games.
 Version: 0.0.1
 Authors@R: 
     person(given = "Robert",
            family = "Gilmore",
            role = c("aut", "cre"),
            email = "robgilmore127@gmail.com")
-Description: What the package does (one paragraph).
+Description: This package supplies the user with tools for managing loot for
+popular tabletop RPG games.  While the package only currently supports Pathfinder
+specifically, the first major release will be generalistic.  The primary tool
+will be a group of functions for deploying a shiny app to use during game sessions
+to keep up with loot.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
