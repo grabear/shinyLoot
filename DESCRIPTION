@@ -16,4 +16,7 @@ Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 Imports: 
-    shiny
+    shiny,
+    googlesheets,
+    googledrive,
+    shinydashboard
